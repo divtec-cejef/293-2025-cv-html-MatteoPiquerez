@@ -1,0 +1,42 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+    max-width: 600px;
+    font-family: montserrat, sans-serif;
+    margin: auto;
+}
+header {
+    display: inline-block;
+}
+
+h2 {
+    color: white;
+}
+
+.titre {
+}
+
+.menu li {
+    display: inline-block;
+    margin: 0 20px;
+    background: linear-gradient(to right, #ff2155, #ff00fb);
+    padding: 10px;
+    border-radius: 10px;
+}
+.menu li:hover {
+
+}
+
+.nav {
+    text-decoration: none;
+    color: white;
+}
+
+footer {
+    margin: 30px;
+}
