@@ -3,8 +3,16 @@
     box-sizing: border-box;
 }
 
+html {
+    background-image: url("../img/background-image.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed; /* Le fond reste immobile */
+}
+
 body {
-    background-color: black;
+    background-color: transparent;
     color: white;
     max-width: 600px;
     font-family: montserrat, sans-serif;
@@ -12,10 +20,12 @@ body {
 }
 header {
     display: inline-block;
+    padding: 10px;
 }
 
 h2 {
     color: white;
+    font-size: 2em;
 }
 
 .titre {
@@ -24,12 +34,16 @@ h2 {
 .menu li {
     display: inline-block;
     margin: 0 20px;
-    background: linear-gradient(to right, #ff2155, #ff00fb);
+    background: linear-gradient(to right, #8c21ff, #0800ff);
     padding: 10px;
     border-radius: 10px;
 }
 .menu li:hover {
-
+    background: linear-gradient(to right, #ffffff, #ffffff);
+}
+.nav:hover {
+    color: black;
+    background-color: white ;
 }
 
 .nav {
@@ -39,4 +53,30 @@ h2 {
 
 footer {
     margin: 30px;
+    padding: 10px;
+    border: lightgrey solid 1px;
+    font-size: 20px;
 }
+.liste li {
+    padding: 8px;
+    font-size: 1.5rem;
+    color: #4f4fff;
+}
+
+img {
+    box-shadow: 0 8px 20px rgba(255,255,255,1);
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+    color: blue;
+}
+
+@font-face {
+    font-family: 'MyWebFont';
+    src: url('myfont.woff2') format('woff2');
+}
+
+@import url(//fonts.googleapis.com/css?family=Open+Sans)
