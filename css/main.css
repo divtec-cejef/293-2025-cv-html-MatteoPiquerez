@@ -28,12 +28,8 @@ h2 {
     font-size: 2em;
 }
 
-.titre {
-}
-
 .menu li {
     display: inline-block;
-    margin: 0 20px;
     background: linear-gradient(to right, #8c21ff, #0800ff);
     padding: 10px;
     border-radius: 10px;
@@ -49,6 +45,7 @@ h2 {
 .nav {
     text-decoration: none;
     color: white;
+    margin: 0 20px;
 }
 
 footer {
